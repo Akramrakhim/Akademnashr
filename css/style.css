@@ -1,0 +1,187 @@
+
+.site-header{
+background-color: #fff;
+}
+
+.sitenav-list{
+list-style: none;
+}
+
+
+.sitenav-link{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.main-link{
+  font-size: 13px;
+  line-height: 15px;
+  color:#fff;
+  background-color: #ff7500;
+  text-decoration: none;
+}
+
+.hero{
+  width: 1440px;
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero_line{
+width: 80px;
+height: 3px;
+left: 0;top: 0;
+background-color: #ff7500;
+}
+
+.hero_content{
+width: 387px;
+}
+
+.hero-img{
+width: 510px;
+height: 510px;
+}
+
+.hero_heading{
+  width: 339px;
+  font-weight: 700;
+  font-style: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+
+
+.hero_text{
+width: 387px;
+font-weight: 400;
+font-style: 16px;
+line-height: 150%;
+letter-spacing: 0.5px;
+}
+
+.python_book{
+width: 510px;
+}
+
+.features{
+width: 1440px;
+}
+
+.features_line{
+width: 80px;
+background: #ff7500;
+}
+
+.features_heading{
+width: 435px;
+font-weight: 700;
+font-style: 72px;
+line-height: 120%;
+letter-spacing: 0.5px;
+color: #000000;
+}
+
+.features_list{
+width: 1100px;
+}
+
+.features_item{
+width: 340px;
+}
+
+.feature_icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+}
+
+.feature_svg{
+width: 56px;
+}
+
+.frame1{
+  width: 340px;
+}
+
+.feature_title{
+  width: 214px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.feature_info{
+  width: 314px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.sale{
+ background-color: #252420;
+ color: #fff;
+}
+
+.sale_content{
+  width: 440px;
+
+}
+
+.sale_heading{
+width: 373px;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+
+.sale_text{
+  font-size: 16px;
+line-height: 1.5;
+}
+
+.sale-highlight{
+color: #ff7500;
+}
+
+
+
+
+.site_footer{
+background-color: #f8f8f8 ;
+}
+
+.site_footer ul{
+list-style: none;
+}
+
+.site_footer-divider{
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-links {
+  width: 224px;
+}
+
+
+.site-footer-links a{
+  color: #252420;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+}
