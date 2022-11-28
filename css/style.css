@@ -1,6 +1,8 @@
 body{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
+
 .site-header{
 background-color: #fff;
 }
@@ -51,6 +53,7 @@ height: 510px;
 }
 
 .hero_heading{
+  font-family: 'Roboto Condensed', sans-serif;
   width: 339px;
   font-weight: 700;
   font-style: 40px;
@@ -81,6 +84,7 @@ background: #ff7500;
 }
 
 .features_heading{
+font-family: 'Roboto Condensed', sans-serif;
 width: 435px;
 font-weight: 700;
 font-style: 72px;
@@ -114,7 +118,7 @@ width: 56px;
 
 .feature_title{
   width: 214px;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -143,6 +147,7 @@ width: 56px;
 }
 
 .sale_heading{
+font-family: 'Roboto Condensed', sans-serif;
 width: 373px;
 font-weight: 700;
 font-size: 40px;
