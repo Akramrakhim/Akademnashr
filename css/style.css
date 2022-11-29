@@ -6,14 +6,21 @@ body{
   color: #000;
 }
 
-/*qalesan*/
-
 .site-header{
 background-color: #fff;
 color: #000 ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.site-header-actions{
+display: flex;
+align-items: center;
 }
 
 .sitenav-list{
+  display: flex;
 list-style: none;
 }
 
@@ -39,6 +46,9 @@ list-style: none;
 .hero{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero_line{
@@ -81,11 +91,15 @@ line-height: 1.2;
 }
 
 .features_list{
-width: 1100px;
+display: flex;
+justify-content: space-around;
+list-style: none;
 }
 
 .features_item{
 width: 340px;
+
+
 }
 
 .feature_icon-wrapper{
@@ -110,6 +124,9 @@ width: 56px;
 }
 
 .sale{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
  background-color: #252420;
  color: #fff;
 }
@@ -136,13 +153,29 @@ color: #ff7500;
 background-color: #f8f8f8 ;
 }
 
+.site_footer-top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
 .site_footer ul{
 list-style: none;
+}
+
+.site-footer-socials{
+  display: flex;
+  align-items: center;
 }
 
 .site_footer-divider{
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom{
+display: flex;
+justify-content: space-between;
 }
 
 .site-footer-links {
