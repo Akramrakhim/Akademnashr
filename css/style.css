@@ -6,6 +6,11 @@ body{
   color: #000;
 }
 
+*:focus{
+outline: 2px dotted #ff7500;
+outline-offset: 3px;
+}
+
 .site-header{
 background-color: #fff;
 color: #000 ;
@@ -239,6 +244,6 @@ justify-content: space-between;
   color: #ff7500;
 }
 
-.site-footer-links a:focus{
+.site-footer-links a:active{
   opacity: 0.6;
 }
