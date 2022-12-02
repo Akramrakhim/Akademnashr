@@ -13,7 +13,10 @@ outline-offset: 3px;
 
 .site-header{
 background-color: #fff;
+border-top: 5px solid #ff7500;
 color: #000 ;
+padding-top: 16px;
+padding-bottom: 16px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -38,6 +41,7 @@ align-items: center;
 }
 
 .sitenav-list{
+  padding: 0;
   display: flex;
 list-style: none;
 }
@@ -52,7 +56,7 @@ list-style: none;
   color: #000;
   text-decoration: none;
   transition: color 0.4s ease,
-  opacity 0.4s ease;
+              opacity 0.4s ease;
 }
 
 .sitenav-link:hover{
@@ -64,8 +68,12 @@ opacity: 0.6;
   }
 
 .main-link{
+  display: inline-block;
+  border-radius: 4px;
   font-size: 13px;
+  padding: 12px 24px;
   line-height: 15px;
+  font-weight: bold;
   color:#fff;
   background-color: #ff7500;
   text-decoration: none;
@@ -85,6 +93,8 @@ opacity: 0.6;
   color: #fff;
   display: flex;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   justify-content: space-between;
 }
 
@@ -107,16 +117,23 @@ width: 390px;
 .hero-img{
 width: 510px;
 height: 510px;
+border-radius: 8px;
 }
 
-.feature{
-  width: 340px;
+
+
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+
 }
 
 
 .features_line{
 width: 80px;
-background: #ff7500;
+height: 3px;
+background-color: #ff7500;
+border: none;
 }
 
 .features_heading{
@@ -129,6 +146,7 @@ line-height: 1.2;
 
 .features_list{
 display: flex;
+padding: 0;
 justify-content: space-around;
 list-style: none;
 }
@@ -140,13 +158,13 @@ width: 340px;
 }
 
 .feature_icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
-}
-
-.feature_svg{
-width: 56px;
 }
 
 .frame1{
@@ -166,6 +184,7 @@ width: 56px;
   align-items: center;
  background-color: #252420;
  color: #fff;
+ border-radius: 12px;
 }
 
 .sale_content{
@@ -184,9 +203,16 @@ color: #FFFFFF;
 color: #ff7500;
 }
 
+.sale-img{
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
+}
 
 
 .site_footer{
+padding-top: 56px;
+padding-bottom: 56px;
 background-color: #f8f8f8 ;
 }
 
@@ -198,6 +224,7 @@ justify-content: space-between;
 
 .site_footer ul{
 list-style: none;
+padding: 0;
 }
 
 .site-footer-socials{
@@ -207,6 +234,7 @@ list-style: none;
 
 .site-footer-socials a{
   color: #252420;
+  padding: 0;
 }
 
 .site-footer-socials a:hover{
@@ -220,12 +248,12 @@ color: #ff7500;
 
 .site_footer-divider{
   height: 2px;
+  border: none;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-bottom{
 display: flex;
-justify-content: space-between;
 }
 
 .site-footer-links {
