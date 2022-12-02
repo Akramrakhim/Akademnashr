@@ -17,6 +17,7 @@ outline: 2px dotted #ff7500;
 outline-offset: 3px;
 }
 
+/* SITE HEADER */
 .site-header{
 background-color: #fff;
 border-top: 5px solid #ff7500;
@@ -121,6 +122,7 @@ opacity: 0.6;
   opacity: 0.6;
 }
 
+/* HERO */
 .hero{
   background-color: #252420;
   color: #fff;
@@ -168,7 +170,7 @@ box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 
-
+/* FEATURES */
 .features{
   padding-top: 210px;
   padding-bottom: 210px;
@@ -282,7 +284,7 @@ color: #ff7500;
   border-radius: 12px;
 }
 
-
+/* FOOTERS */
 .site_footer{
 padding-top: 56px;
 padding-bottom: 56px;
